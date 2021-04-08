@@ -501,13 +501,13 @@ PART 2 - PESTS & COLD SNAP
 	font-size: 1.7em;
 }
 
+.next-page h2 {
+	font-size: 7em;
+}
+
 #fly {
 	text-align: center;
 	font-size: 90%;
-}
-
-.next-page h2 {
-	font-size: 7em;
 }
 
 .part-2-img {
@@ -524,6 +524,9 @@ PART 2 - PESTS & COLD SNAP
 	}
 	.part-2 h2 {
 		font-size: 3em;
+	}
+	.next-page h2 {
+		font-size: 7em;
 	}
 	.part-2 p {
 		font-size: 1.3em;
@@ -612,7 +615,6 @@ PART 3 - PLANTING GUIDE
 		grid-row: 2 / span 1;
 		grid-column: 2 / span 1;
 	}
-
 	.seed-3 {
 		grid-column: 3 / span 1;
 	}
@@ -620,15 +622,12 @@ PART 3 - PLANTING GUIDE
 		grid-row: 2 / span 1;
 		grid-column: 3 / span 1;
 	}
-
-	.part-3-table, .transplants {
-		background-color: white;
+	.planting-table, .seed-1, .seed-2, .seed-3, .transplant-1, .transplant-2, .transplant-3 {
 		display: block;
 		position: fixed;
 		width: 250px;
 		padding: 1%;
 	}
-
 	.month-guide {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
@@ -639,7 +638,6 @@ PART 3 - PLANTING GUIDE
 		position: fixed;
 		text-align: center;
 	}
-
 	#early {
 		grid-column: 1 / span 1;
 		background-color: rgba(77, 5, 232, .75);
